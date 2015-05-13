@@ -9,3 +9,9 @@ script:
   - npm test
 after_script:
   - npm run coverage
+env:
+  global:
+    # FIREBASE_TOKEN
+    - secure: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJkIjp7InVpZCI6InR3aXR0ZXI6MjgyMjcxODE5NSIsInByb3ZpZGVyIjoidHdpdHRlciJ9LCJpYXQiOjE0MzEzNjc0ODB9.saL9YgQ9febtMUS3gs2nU1KSiDVnQ0pBS_yONxU3X6A
+    # FIREBASE_SECRET
+    - secure: sdQjpVEhXIoOsZyzvYZYHY6MYF82S9NWVRrbXuTp
