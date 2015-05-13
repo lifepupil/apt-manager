@@ -1,0 +1,39 @@
+[
+	{
+		"_id": {"$oid": "b00000000000000000000001"},
+		"managerId": {"$oid": "a00000000000000000000001"},
+		"name": "Fluffy-ville",
+		"address": "place street",
+		"apartments": [],
+		"created": {"$date": 1431541054341}
+	},
+	{
+		"_id": {"$oid": "b00000000000000000000002"},
+		"managerId": {"$oid": "a00000000000000000000001"},
+		"name": "Poopy apartments",
+		"address": "ughville, Yuck",
+		"apartments": [],
+		"created": {"$date": 1431541054341}
+	},	{
+		"_id": {"$oid": "b00000000000000000000003"},
+		"managerId": {"$oid": "a00000000000000000000001"},
+		"name": "Marmalade Junction",
+		"address": "Jam road",
+		"apartments": [],
+		"created": {"$date": 1431541054341}
+	},	{
+		"_id": {"$oid": "b00000000000000000000004"},
+		"managerId": {"$oid": "a00000000000000000000002"},
+		"name": "Living spots",
+		"address": "100 hole street",
+		"apartments": [],
+		"created": {"$date": 1431541054341}
+	},	{
+		"_id": {"$oid": "b00000000000000000000005"},
+		"managerId": {"$oid": "a00000000000000000000002"},
+		"name": "Fancy Pants apartments",
+		"address": "666 Hoity-Toity street",
+		"apartments": [],
+		"created": {"$date": 1431541054341}
+	}
+]
